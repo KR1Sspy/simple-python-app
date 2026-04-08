@@ -17,7 +17,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main', 
-                    url: 'https://github.com/cryspypon/simple-python-app.git', // ЗАМЕНИ НА СВОЙ URL
+                    url: 'https://github.com/KR1Sspy/simple-python-app.git', // ЗАМЕНИ НА СВОЙ URL
                     credentialsId: 'github-credentials'
             }
         }
