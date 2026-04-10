@@ -14,7 +14,7 @@ def hello():
     <head><title>CI/CD Demo</title></head>
     <body style="font-family: Arial; text-align: center; margin-top: 50px;">
         <h1 style="color: #4CAF50;">Hello from Jenkins CI/CD Pipeline!</h1>
-        <p><strong>Student:</strong> {student_name}</p>
+        <p><strong>Student: CHANGE</strong> {student_name}</p>
         <p><strong>Hostname:</strong> {socket.gethostname()}</p>
         <p><strong>Version 1:</strong> 1.0.2</p>
     </body>
